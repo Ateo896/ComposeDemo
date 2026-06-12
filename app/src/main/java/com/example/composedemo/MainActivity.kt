@@ -40,8 +40,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize()
                 ) { innerPadding ->
 
-                    Greeting(
-                        name = "Android",
+                    DemoScreen(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
